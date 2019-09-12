@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Sample Landing Page</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="https://use.fontawesome.com/76d744d74b.js"></script>
+		<script 
+		src="https://code.jquery.com/jquery-3.4.1.js"
+  		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  		crossorigin="anonymous"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".email").click(function(){
+					$(".overlap").toggleClass("active");
+				})
+				$(".times").click(function(){
+					$(".overlap").toggleClass("active");
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<div class="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+		<div class="overlap">
+			<div class="newsletter">
+				<div class="times">
+					<i class="fa fa-times" aria-hidden="true"></i>
+				</div>
+				<div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+				<h1>Newsletter</h1>
+				<p>Stay up to date with our latest news </p>
+				<div class="sub-form">
+					<input type="email" name="" placeholder="Email Address">
+					<input type="submit" name="" value="Subscribe">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
