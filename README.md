@@ -1,2 +1,2 @@
 # practice-lp
-sample landing page
+A sample of a responsive landing page using html and css
